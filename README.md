@@ -341,18 +341,6 @@ docker build -t dockerfile .
 docker run -it -p 9696:9696 dockerfile
 ```
 
-### Cloud Deployment Options
-
-The service can be deployed to:
-- **AWS Elastic Beanstalk**
-- **Google Cloud Run**
-- **Azure Container Instances**
-- **Heroku**
-
-*(Deployment instructions available upon request)*
-
----
-
 ## Project Limitations & Future Work
 
 ### Current Limitations
@@ -395,9 +383,8 @@ Three pickle files are included:
 ## Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-profile](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
+- GitHub: [@your-username](https://github.com/HighviewOne)
+- LinkedIn: [your-profile](https://linkedin.com/in/michaelaltamirano)
 
 ---
 
@@ -405,7 +392,6 @@ Three pickle files are included:
 
 - **Dataset**: UCI Machine Learning Repository
 - **Course**: ML Zoomcamp by DataTalks.Club
-- **Inspiration**: Cortez et al. (2009) - Decision Support Systems
 
 ---
 
