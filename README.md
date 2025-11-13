@@ -299,9 +299,9 @@ python predict.py
 
 ### Running the Notebook
 
-Open `wine-quality-prediction.ipynb` in Jupyter:
+Open `notebook.ipynb` in Jupyter:
 ```bash
-jupyter notebook wine-quality-prediction.ipynb
+jupyter notebook notebook.ipynb
 ```
 
 The notebook contains:
