@@ -149,12 +149,12 @@ The API will be available at `http://localhost:9696`
 
 1. **Build Docker image**
 ```bash
-docker build -t wine-quality-api .
+docker build -t dockerfile .
 ```
 
 2. **Run container**
 ```bash
-docker run -it -p 9696:9696 wine-quality-api
+docker run -it -p 9696:9696 dockerfile
 ```
 
 3. **Verify it's running**
