@@ -118,7 +118,7 @@ wine-quality-prediction/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/wine-quality-prediction.git
+git clone https://github.com/HighviewOne/MLZoomcampProject1.git
 cd wine-quality-prediction
 ```
 
