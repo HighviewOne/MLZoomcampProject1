@@ -383,8 +383,8 @@ Three pickle files are included:
 ## Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/HighviewOne)
-- LinkedIn: [your-profile](https://linkedin.com/in/michaelaltamirano)
+- GitHub: [@HighviewOne](https://github.com/HighviewOne)
+- LinkedIn: [michaelaltamirano](https://linkedin.com/in/michaelaltamirano)
 
 ---
 
