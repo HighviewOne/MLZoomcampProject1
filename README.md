@@ -184,7 +184,7 @@ GET http://localhost:9696/health
 
 #### 2. Predict Wine Quality
 ```bash
-POST http://localhost:9696/flask_predict_service
+POST http://localhost:9696/predict
 Content-Type: application/json
 ```
 
@@ -227,7 +227,7 @@ Content-Type: application/json
 
 **Using curl:**
 ```bash
-curl -X POST http://localhost:9696/flask_predict_service \
+curl -X POST http://localhost:9696/predict \
   -H "Content-Type: application/json" \
   -d '{
     "fixed acidity": 7.4,
@@ -268,7 +268,7 @@ print(response.json())
 
 **Using test script:**
 ```bash
-python test_api.py
+python test_api_script.py
 ```
 
 ---
