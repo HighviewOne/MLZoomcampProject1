@@ -135,12 +135,12 @@ pip install -r requirements_txt.txt
 
 4. **Train the model** (optional - models already included)
 ```bash
-python train.py
+python train_script.py
 ```
 
 5. **Start the Flask API**
 ```bash
-python predict.py
+python flask_predict_service.py
 ```
 
 The API will be available at `http://localhost:9696`
@@ -184,7 +184,7 @@ GET http://localhost:9696/health
 
 #### 2. Predict Wine Quality
 ```bash
-POST http://localhost:9696/predict
+POST http://localhost:9696/flask_predict_service
 Content-Type: application/json
 ```
 
