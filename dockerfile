@@ -5,19 +5,19 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Copy requirements first (for better caching)
-COPY requirements.txt .
+COPY requirements_txt.txt .
 
 # Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements_txt.txt
 
 # Copy model files and application
 COPY wine_quality_regressor.pkl .
 COPY wine_quality_classifier.pkl .
 COPY feature_scaler.pkl .
-COPY predict.py .
+COPY flask_predict_service.py .
 
 # Expose port 9696
 EXPOSE 9696
 
 # Run the Flask application
-CMD ["python", "predict.py"]
+CMD ["python", "flask_predict_service.py"]
