@@ -227,7 +227,7 @@ Content-Type: application/json
 
 **Using curl:**
 ```bash
-curl -X POST http://localhost:9696/predict \
+curl -X POST http://localhost:9696/flask_predict_service \
   -H "Content-Type: application/json" \
   -d '{
     "fixed acidity": 7.4,
