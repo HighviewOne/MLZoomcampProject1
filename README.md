@@ -118,8 +118,8 @@ wine-quality-prediction/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/wine-quality-prediction.git
-cd wine-quality-prediction
+git clone https://github.com/HighviewOne/MLZoomcampProject1.git
+cd MLZoomcampProject1
 ```
 
 2. **Create virtual environment**
@@ -149,12 +149,12 @@ The API will be available at `http://localhost:9696`
 
 1. **Build Docker image**
 ```bash
-docker build -t wine-quality-api .
+docker build -t dockerfile .
 ```
 
 2. **Run container**
 ```bash
-docker run -it -p 9696:9696 wine-quality-api
+docker run -it -p 9696:9696 dockerfile
 ```
 
 3. **Verify it's running**
@@ -277,7 +277,7 @@ python test_api.py
 
 ### Training from Scratch
 
-1. **Ensure dataset is present:** `winequality-red.csv`
+1. **Ensure dataset is present:** `wine.csv`
 
 2. **Run training script:**
 ```bash
@@ -299,9 +299,9 @@ python predict.py
 
 ### Running the Notebook
 
-Open `notebook.ipynb` in Jupyter:
+Open `wine-quality-prediction.ipynb` in Jupyter:
 ```bash
-jupyter notebook notebook.ipynb
+jupyter notebook wine-quality-prediction.ipynb
 ```
 
 The notebook contains:
@@ -318,7 +318,7 @@ The notebook contains:
 An interactive web interface is also provided (not required for ML Zoomcamp, but great for demos!):
 
 ```bash
-streamlit run app.py
+streamlit run wine_quality_streamlit.py
 ```
 
 Access at: `http://localhost:8501`
@@ -337,8 +337,8 @@ Features:
 
 **Build and run:**
 ```bash
-docker build -t wine-quality-api .
-docker run -it -p 9696:9696 wine-quality-api
+docker build -t dockerfile .
+docker run -it -p 9696:9696 dockerfile
 ```
 
 ### Cloud Deployment Options
