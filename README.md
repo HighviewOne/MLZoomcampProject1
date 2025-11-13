@@ -281,7 +281,7 @@ python test_api_script.py
 
 2. **Run training script:**
 ```bash
-python train.py
+python train_script.py
 ```
 
 This will:
@@ -294,14 +294,14 @@ This will:
 
 3. **Start API:**
 ```bash
-python predict.py
+python flask_predict_service.py
 ```
 
 ### Running the Notebook
 
 Open `notebook.ipynb` in Jupyter:
 ```bash
-jupyter notebook notebook.ipynb
+jupyter notebook wine-quality-prediction.ipynb
 ```
 
 The notebook contains:
@@ -318,7 +318,7 @@ The notebook contains:
 An interactive web interface is also provided (not required for ML Zoomcamp, but great for demos!):
 
 ```bash
-streamlit run app.py
+streamlit run wine_quality_streamlit.py
 ```
 
 Access at: `http://localhost:8501`
@@ -337,8 +337,8 @@ Features:
 
 **Build and run:**
 ```bash
-docker build -t wine-quality-api .
-docker run -it -p 9696:9696 wine-quality-api
+docker build -t dockerfile .
+docker run -it -p 9696:9696 dockerfile
 ```
 
 ### Cloud Deployment Options
