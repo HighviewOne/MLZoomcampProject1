@@ -130,7 +130,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. **Install dependencies**
 ```bash
-pip install -r requirements.txt
+pip install -r requirements_txt.txt
 ```
 
 4. **Train the model** (optional - models already included)
