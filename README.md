@@ -119,12 +119,12 @@ wine-quality-prediction/
 1. **Clone the repository**
 ```bash
 git clone https://github.com/HighviewOne/MLZoomcampProject1.git
-cd wine-quality-prediction
+cd MLZoomcampProject1
 ```
 
 2. **Create virtual environment**
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
